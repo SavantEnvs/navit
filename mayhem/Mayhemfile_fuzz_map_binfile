@@ -1,0 +1,9 @@
+project: savantenvs/navit
+target: fuzz_map_binfile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_map_binfile/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/fuzz_map_binfile
+    libfuzzer: true
+    timeout: 10

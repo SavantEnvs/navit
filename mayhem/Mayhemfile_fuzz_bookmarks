@@ -1,0 +1,9 @@
+project: savantenvs/navit
+target: fuzz_bookmarks
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_bookmarks/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/fuzz_bookmarks
+    libfuzzer: true
+    timeout: 10

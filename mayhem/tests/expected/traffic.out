@@ -1,0 +1,5 @@
+message test:1 cancel=0 forecast=0 replaces=0 events=2 location=yes
+  event CONGESTION CONGESTION_STATIONARY_TRAFFIC length=1500 speed=2147483647 si=0
+  event RESTRICTION RESTRICTION_LANE_CLOSED length=-1 speed=60 si=1
+message test:2 cancel=1 forecast=0 replaces=0 events=0 location=yes
+messages 2

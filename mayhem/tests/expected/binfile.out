@@ -1,0 +1,25 @@
+item map_information
+  attr version=15
+item street_4_city
+  attr street_name=Main & Street
+  attr osm_wayid=10
+  attr label=Main & Street
+  coord 0x138315 0x5d552f
+  coord 0x13876d 0x5d586f
+  coord 0x138bc5 0x5d5bb0
+item poi_fuel
+  attr label=Test Fuel
+  attr osm_nodeid=4
+  attr debug=
+  coord 0x138999 0x5d567c
+item town_label_2e4
+  attr town_name=Testtown
+  attr osm_nodeid=5
+  attr debug=
+  attr town_postal=80331
+  attr label=Testtown
+  coord 0x138541 0x5d5916
+item countryindex
+  attr country_id=999
+  attr zipfile_ref=1
+items 5

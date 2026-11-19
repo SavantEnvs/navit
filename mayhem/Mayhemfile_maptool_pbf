@@ -1,0 +1,9 @@
+project: savantenvs/navit
+target: maptool_pbf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/maptool_pbf/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/maptool-afl -T 1 -U --protobuf -i @@ out.bin
+    afl: true
+    timeout: 30

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+  <message id="test:1" receive_time="2026-01-01T10:00:00Z" update_time="2026-01-01T10:05:00Z" expiration_time="2099-01-01T11:00:00Z">
+    <location directionality="ONE_DIRECTION" fuzziness="LOW_RES" road_class="MOTORWAY" road_ref="A9">
+      <from>+48.1000 +11.5000</from>
+      <to>+48.2000 +11.6000</to>
+    </location>
+    <events>
+      <event class="CONGESTION" type="CONGESTION_STATIONARY_TRAFFIC" length="1500"/>
+      <event class="RESTRICTION" type="RESTRICTION_LANE_CLOSED" speed="60">
+        <supplementary_info class="VEHICLE" type="S_VEHICLE_HGV"/>
+      </event>
+    </events>
+  </message>
+  <message id="test:2" receive_time="2026-01-01T10:00:00Z" update_time="2026-01-01T10:06:00Z" expiration_time="2099-01-01T11:00:00Z" cancellation="true">
+    <merge>
+      <replaces id="test:0"/>
+    </merge>
+    <location directionality="BOTH_DIRECTIONS" road_class="PRIMARY">
+      <at>+48.1500 +11.5500</at>
+    </location>
+    <events>
+      <event class="HAZARD" type="HAZARD_OBJECT_ON_ROAD"/>
+    </events>
+  </message>
+</feed>

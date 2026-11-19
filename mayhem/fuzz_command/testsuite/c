@@ -1,0 +1,1 @@
+navit.zoom > 5 ? "a" : "b"

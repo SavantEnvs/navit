@@ -1,0 +1,13 @@
+type=poi_fuel label="Test Fuel" phone="+49 89 123" debug="x" 
+11.515 48.102
+type=street_2_city label="Main Street" street_name="Main Street"
+mg:0x1234 0x5678
+mg:0x1300 0x5700
+11.5200 48.1100
+type=town_label_1e5 label="Testtown" town_postal="80331"
+11.505 48.106
+type=poly_wood label="Forest"
+11.50 48.10
+11.51 48.10
+11.51 48.11
+11.50 48.10

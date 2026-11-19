@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="handmade">
+  <bounds minlat="48.100" minlon="11.500" maxlat="48.110" maxlon="11.520"/>
+  <node id="1" lat="48.1000" lon="11.5000"/>
+  <node id="2" lat="48.1050" lon="11.5100"/>
+  <node id="3" lat="48.1100" lon="11.5200"/>
+  <node id="4" lat="48.1020" lon="11.5150">
+    <tag k="amenity" v="fuel"/>
+    <tag k="name" v="Test Fuel"/>
+  </node>
+  <node id="5" lat="48.1060" lon="11.5050">
+    <tag k="place" v="town"/>
+    <tag k="name" v="Testtown"/>
+    <tag k="postal_code" v="80331"/>
+  </node>
+  <way id="10">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <tag k="highway" v="primary"/>
+    <tag k="name" v="Main &amp; Street"/>
+  </way>
+  <relation id="100">
+    <member type="way" ref="10" role=""/>
+    <tag k="type" v="route"/>
+  </relation>
+</osm>

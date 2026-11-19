@@ -1,0 +1,29 @@
+item poi_custom0
+  attr phone=+4989123
+  attr label=Test Fuel
+  attr position_latitude=48.102000
+  attr position_longitude=11.515000
+  attr id=1
+  coord 0x138999 0x5d567c
+item poi_custom0
+  attr phone=+4989456
+  attr label=Cafe Mitte
+  attr position_latitude=48.106000
+  attr position_longitude=11.505000
+  attr id=2
+  coord 0x138541 0x5d5916
+item poi_custom0
+  attr phone=+4420
+  attr label=London Eye
+  attr position_latitude=51.507200
+  attr position_longitude=-0.127600
+  attr id=3
+  coord 0xffffc894 0x664b7c
+item poi_custom0
+  attr phone=+4930
+  attr label=Berlin Mitte
+  attr position_latitude=52.520000
+  attr position_longitude=13.405000
+  attr id=4
+  coord 0x16be87 0x691648
+items 4

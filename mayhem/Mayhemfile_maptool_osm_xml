@@ -1,0 +1,9 @@
+project: savantenvs/navit
+target: maptool_osm_xml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/maptool_osm_xml/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/maptool-afl -T 1 -U -i @@ out.bin
+    afl: true
+    timeout: 30

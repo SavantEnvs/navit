@@ -1,0 +1,2 @@
+mg:0x138999 0x5d567c type=bookmark label="Home" path="Places/Home"
+mg:0x138541 0x5d5916 type=former_destination label="Work"

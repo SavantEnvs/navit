@@ -1,0 +1,6 @@
+type=former_destination label="Main Street 1"
+mg:0x138999 0x5d567c
+type=former_itinerary label="Trip"
+mg:0x138541 0x5d5916
+mg:0x16be87 0x691648
+type=former_destination label="No coords"
